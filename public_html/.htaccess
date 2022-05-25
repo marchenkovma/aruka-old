@@ -1,3 +1,9 @@
+# Password for folder
+# AuthType Basic
+# AuthName "Protected 'test.howto.by'"
+# AuthUserFile "/home/mysuperd/.htpasswds/test.howto.by/passwd"
+# Require valid-user
+
 # Enable module Rewrite
 RewriteEngine On
 
