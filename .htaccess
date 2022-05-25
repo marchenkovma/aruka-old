@@ -1,0 +1,6 @@
+# Enable module Rewrite
+RewriteEngine On
+
+# Send all requests (.*) to public_html
+# .* = $1
+RewriteRule (.*) public_htm/$1
