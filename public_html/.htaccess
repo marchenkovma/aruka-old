@@ -5,6 +5,8 @@ RewriteEngine On
 # If request is not file, then redirect request to index.php
 RewriteCond %{REQUEST_FILENAME} !-f
 # If request is not folder, then redirect request to index.php
+# But this condition is not necessary, 
+# we do not want to show user the directory structure
 # RewriteCond %{REQUEST_FILENAME} !-d
 
 # Send all requests (.*) to index.php
