@@ -10,6 +10,6 @@ RewriteCond %{REQUEST_FILENAME} !-f
 # Send all requests (.*) to index.php
 # .* = $1
 # All requests added as get-request
-# [L,QSA] - withoutspace! 
+# [L,QSA] without space! 
 # L - last rule, QSA - ?id=12 = index.php?id=12
 RewriteRule (.*) index.php?$1 [L,QSA]
