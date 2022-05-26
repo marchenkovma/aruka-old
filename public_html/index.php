@@ -1,6 +1,6 @@
 <?php
 
-if (PHP_MAJOR_VERION <8) {
+if (PHP_MAJOR_VERSION <8) {
     die('PHP version required >= 8');
 }
 
