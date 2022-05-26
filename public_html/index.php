@@ -8,4 +8,4 @@ require_once dirname(__DIR__) . '/config/init.php';
 
 new \aruka\App();
 
-var_dump(\aruka\App:$app->getProperties());
+var_dump(\aruka\App::$app->getProperties());
