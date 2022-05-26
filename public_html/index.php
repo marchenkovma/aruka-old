@@ -8,3 +8,7 @@ else {
 }
 
 require_once dirname(__DIR__) . '/config/init.php';
+
+new \aruka\App();
+
+vardump(\aruka\App:$app->getProperties());
