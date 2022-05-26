@@ -11,7 +11,7 @@ class Registry
 
     public function setProperty($name, $value)
     {
-        sefl::$properties[$name] $value;
+        sefl::$properties[$name] = $value;
     }
 
     public function getProperty($name)
