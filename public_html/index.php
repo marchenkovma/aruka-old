@@ -13,4 +13,4 @@ new \aruka\App();
 // \aruka\App::$app->setProperty('test', 'TEST');
 // var_dump(\aruka\App::$app->getProperties());
 
-throw new Exception('I have many error!')
+throw new Exception('I have many error!');
