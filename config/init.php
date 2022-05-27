@@ -15,6 +15,6 @@ define("PATH", 'https://test.howto.by');
 define("ADMIN", PATH . '/admin');
 // ?
 define("NO_IMAGE", PATH . 'upload/no_image.jpg');
-define("EXCEPTION", 'Exception')
+define("EXCEPTION", 'Exception');
 
 require_once ROOT . '/vendor/autoload.php';
