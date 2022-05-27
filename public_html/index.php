@@ -11,3 +11,5 @@ new \aruka\App();
 echo \aruka\App::$app->getProperty('pagination');
 echo '<br>';
 var_dump(\aruka\App::$app->getProperties());
+
+\aruka\App::$app->getProperty('test', 'TEST');
