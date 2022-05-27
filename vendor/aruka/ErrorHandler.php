@@ -53,7 +53,7 @@ class ErrorHandler
             $responce = 404;
         }
         http_response_code($responce);
-        if ($reponce == 404 && !DEBUNG) {
+        if ($responce == 404 && !DEBUNG) {
             require WWW . '/errors/404.php';
             die;
         }
