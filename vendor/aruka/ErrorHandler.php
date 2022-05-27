@@ -46,8 +46,7 @@ class ErrorHandler
     {
         file_put_contents(
             LOGS, '/.errors.log', 
-            "[". date('Y-m-d H:i:s') . "] Текст ошибки: {$message} | Файл {$file} | Строка: {$line}\n==============\n", FILE_APPEND
-        );
+            "[". date('Y-m-d H:i:s') . "] Текст ошибки: {$message} | Файл {$file} | Строка: {$line}\n==============\n", FILE_APPEND);
     }
 
     protected function displayError($errno, $errstr, $errfile, $errline, $responce = 500)
