@@ -18,7 +18,7 @@ class ErrorHandler
         register_shutdown_function([$this, 'fatalErrorHandler']);
     }
 
-    public function errorHandler(($errno, $errstr, $errfile, $errline)
+    public function errorHandler($errno, $errstr, $errfile, $errline)
     {
         $this->logError($errstr, $errfile, $errline);
         $this->displayError($errno, $errstr, $errfile, $errline);
