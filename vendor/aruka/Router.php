@@ -33,6 +33,12 @@ class Router
 
     public static function matchRoute($url): bool
     {
-        return false;
+        foreach (self::routes as $pattern => $route) {
+            // #{$pattern}#i - case-independent
+            if (preg_match("#{$pattern}#i", $url, $matches)) {
+                return true;
+            }
+            return false;
+        }
     }
 }
