@@ -18,9 +18,10 @@
     <title>Development</title>
 </head>
 <body>
-    <h1>Error (development)</h1>
+    <h1>Error</h1>
+    <p>Debug: development</p>
     <p>Code error: <?= $errno; ?></p>
-    <p>Text error: <?= $errstr; ?></p>
+    <p>Message error: <?= $errstr; ?></p>
     <p>File error: <?= $errfile; ?></p>
     <p>Line error: <?= $errline; ?></p>
 </body>

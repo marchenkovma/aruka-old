@@ -7,7 +7,8 @@
     <title>Production</title>
 </head>
 <body>
-    <h1>Error (production)</h1>
+    <h1>Error</h1>
+    <p>Debug: production</p>
     <p><a href="<?= PATH; ?>">Go back to home</p>
 </body>
 </html>
