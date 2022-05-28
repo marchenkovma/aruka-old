@@ -1,4 +1,4 @@
-<?$php
+<?php
 
 function debug($date, $die = false)
 {
