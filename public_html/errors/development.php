@@ -20,9 +20,9 @@
 <body>
     <h1>Error</h1>
     <p>Debug: development</p>
-    <p>Code error: <?= $errno; ?></p>
-    <p>Message error: <?= $errstr; ?></p>
-    <p>File error: <?= $errfile; ?></p>
-    <p>Line error: <?= $errline; ?></p>
+    <p>Code: <?= $errno; ?></p>
+    <p>Message: <?= $errstr; ?></p>
+    <p>File: <?= $errfile; ?></p>
+    <p>Line: <?= $errline; ?></p>
 </body>
 </html>
