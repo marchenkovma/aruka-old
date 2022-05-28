@@ -15,4 +15,6 @@ new \aruka\App();
 
 //throw new Exception('I have many error!', 500);
 
-throw new Exception('I have many error!', 404);
+//throw new Exception('I have many error!', 404);
+
+echo 'Hello, aruka';
