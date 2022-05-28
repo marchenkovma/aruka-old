@@ -16,4 +16,4 @@ Router::add('^$', ['controller' => 'Main', 'action' => 'index']);
 // - Underscore
 // + - at least 1 character
 // ? - / optional
-Router::add('^(?P<controller>[a-z-]+)\/(?P<action>[a-z-]+)\/?$');
+Router::add('^(?P<controller>[a-z-]+)/(?P<action>[a-z-]+)/?$');
