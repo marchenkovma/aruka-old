@@ -11,7 +11,7 @@ define("LOGS", ROOT . '/tmp/logs');
 define("CONFIG", ROOT . '/config');
 define("LAYOUT", 'aruka');
 define("PROTOCOL", 'https://');
-define("PATH", PROTOCOL . 'test.howto.by');
+define("PATH", 'https://test.howto.by');
 //define("PATH", 'http://aruka.loc');
 define("ADMIN", PATH . '/admin');
 // ?
