@@ -44,7 +44,7 @@ class ErrorHandler
 
     protected function logError($message = '', $file = '', $line = '')
     {
-        file_put_contents(LOGS . '/errors.log', "[". date('Y-m-d H:i:s') . "] Message: {$message} | File: {$file} | Line: {$line}\n==============\n", FILE_APPEND);
+        file_put_contents(LOGS . '/errors.log', "[". date('Y-m-d H:i:s') . "] Message error: {$message} | File error: {$file} | Line error: {$line}\n", FILE_APPEND);
     }
 
     protected function displayError($errno, $errstr, $errfile, $errline, $responce = 500)
