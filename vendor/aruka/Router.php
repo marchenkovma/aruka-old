@@ -24,6 +24,6 @@ class Router
 
     public static function dispatch($url)
     {
-        
+        var_dump($url);
     }
 }
