@@ -24,6 +24,15 @@ class Router
 
     public static function dispatch($url)
     {
-        var_dump($url);
+        if (self::matchRoute($url)) {
+            echo 'OK!';
+        } else  {
+            echo 'NO!';
+        }
+    }
+
+    public static function matchRoute($url): bool
+    {
+        return true;
     }
 }
