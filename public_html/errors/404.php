@@ -7,7 +7,7 @@
     <title>404</title>
 </head>
 <body>
-    <h1>Error 404</h1>
+    <h1>404</h1>
     <p><a href="<?= PATH; ?>">Go back to home</p>
 </body>
 </html>
