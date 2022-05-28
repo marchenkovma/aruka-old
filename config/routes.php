@@ -1,6 +1,6 @@
 <?php
 
-user aruka\Router;
+use aruka\Router;
 
 // ^ - begin line
 // & - end line
