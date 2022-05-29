@@ -38,7 +38,7 @@ class Router
             if (preg_match("#{$pattern}#", $url, $matches)) {
                 return true;
             }
-            return false;
         }
+        return false;
     }
 }
