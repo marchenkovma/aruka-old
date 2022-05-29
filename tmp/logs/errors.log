@@ -1,0 +1,74 @@
+[2022-05-29 20:39:43] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 30
+[2022-05-29 20:45:33] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 31
+[2022-05-29 20:45:58] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 31
+[2022-05-29 20:46:19] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 31
+[2022-05-29 20:50:21] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 36
+[2022-05-29 20:50:22] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 36
+[2022-05-29 20:50:22] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 36
+[2022-05-29 20:50:22] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 36
+[2022-05-29 20:50:23] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 36
+[2022-05-29 20:50:23] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 36
+[2022-05-29 20:50:23] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 36
+[2022-05-29 20:50:24] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 36
+[2022-05-29 20:50:24] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 36
+[2022-05-29 20:50:25] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 36
+[2022-05-29 20:50:27] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 36
+[2022-05-29 20:50:29] Message: Call to undefined function aruka\class_exist() | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 29
+[2022-05-29 20:50:58] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 33
+[2022-05-29 20:51:12] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 36
+[2022-05-29 20:51:18] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 33
+[2022-05-29 20:51:22] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 36
+[2022-05-29 20:51:26] Message: Controller app\controllers\admin\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 33
+[2022-05-29 20:51:33] Message: Controller app\controllers\admin\ViewController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 33
+[2022-05-29 20:57:16] Message: Controller app\controllers\admin\ViewController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:17] Message: Controller app\controllers\admin\ViewController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:17] Message: Controller app\controllers\admin\ViewController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:17] Message: Controller app\controllers\admin\ViewController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:18] Message: Controller app\controllers\admin\ViewController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:18] Message: Controller app\controllers\admin\ViewController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:21] Message: Controller app\controllers\admin\ViewController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:21] Message: Controller app\controllers\admin\ViewController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:21] Message: Controller app\controllers\admin\ViewController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:21] Message: Controller app\controllers\admin\ViewController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:22] Message: Controller app\controllers\admin\ViewController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:22] Message: Controller app\controllers\admin\ViewController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:22] Message: Controller app\controllers\admin\ViewController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:22] Message: Controller app\controllers\admin\ViewController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:28] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:48] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:48] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:48] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:49] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:49] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:49] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:49] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:50] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:57:50] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:58:02] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:58:03] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:58:03] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:58:53] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:58:54] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:58:54] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:58:54] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:58:55] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 41
+[2022-05-29 20:59:04] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:59:04] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 41
+[2022-05-29 20:59:05] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:59:05] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 41
+[2022-05-29 20:59:05] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:59:05] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 41
+[2022-05-29 20:59:06] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:59:07] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:59:07] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:59:13] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 20:59:13] Message: Controller app\controllers\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 21:00:17] Message: Action app\controllers\MainController::indexAction not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 35
+[2022-05-29 21:03:26] Message: Controller app\controllers\PageController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 21:03:30] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 41
+[2022-05-29 21:03:36] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 41
+[2022-05-29 21:03:37] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 41
+[2022-05-29 21:03:37] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 41
+[2022-05-29 21:03:44] Message: Action app\controllers\PageController::viewAction not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 35
+[2022-05-29 21:04:41] Message: Controller app\controllers\admin\MainController not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 38
+[2022-05-29 21:08:56] Message: Page not found | File : C:\OpenServer\domains\aruka.loc\vendor\aruka\Router.php | Line: 41
