@@ -71,9 +71,10 @@ class Router
 
         return str_replace(' ', '', ucwords(str_replace('-', '', $name)));
     }
-    // PSR 4?
-    // CamelCase - Class
-    // new-product => NewProduct
-    // camelCase - Method
 
+    // camelCase
+    protected static function lowerCamelCase($name): string
+    {
+        return lcfirst(self::upperCamelCase($name));
+    }
 }
