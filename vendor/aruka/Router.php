@@ -27,12 +27,15 @@ class Router
         debug($url);
         if ($url) {
             $params = explode('&', $url, 2);
+            echo 'debug1: ';
             debug($params);
             if (false === str_contains($params[0], '=')) {
-
+                return rtrim($params[0], '/');
             }
         }
         return '';
+        echo 'debug2: ';
+        debug($params);
     }
 
     public static function dispatch($url)
