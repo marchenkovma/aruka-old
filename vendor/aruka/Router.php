@@ -24,7 +24,7 @@ class Router
 
     protected static function removeQueryString($url)
     {
-        debung($url);
+        debug($url);
         if ($url) {
             $params = explode('&', $url, 2);
             debug($params);
