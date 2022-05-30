@@ -9,7 +9,7 @@ abstract class Controller
     public array $meta = ['title' => '', 'description' => '', 'keywords' => ''];
     public false|string $layout = '';
     public string $view = '';
-    public string $model = '';
+    public object $model = '';
 
 
     public function __construct(public $route = [])
@@ -20,6 +20,13 @@ abstract class Controller
     public function getModel()
     {
         $model = 'app\models\\' . $this->route['admin_prefix'] . $this->route['controller'];
-        $this->model = $model;
+        if (class_exists($model)) {
+            $this->model = new $model();
+        }
     }
+
+    public function getView()
+    {
+        $this->view = $this->view ?: $this->route['action'];
+    }    
 }
