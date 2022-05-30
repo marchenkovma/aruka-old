@@ -4,13 +4,11 @@ namespace aruka;
 
 abstract class Controller
 {
-    // New PHP8
     public array $data = [];
     public array $meta = ['title' => '', 'description' => '', 'keywords' => ''];
     public false|string $layout = '';
     public string $view = '';
     public object $model = '';
-
 
     public function __construct(public $route = [])
     {
@@ -28,5 +26,17 @@ abstract class Controller
     public function getView()
     {
         $this->view = $this->view ?: $this->route['action'];
-    }    
+    }
+    
+    public function set($data)
+    {
+        $this->data = $data;
+    }
+
+    public function setMeta($title = '', $description = '', $keywords = '')
+    {
+        $this->meta = [
+            'title' => $title, 'description' => $description, 'keywords' => $keywords
+        ];
+    }
 }
