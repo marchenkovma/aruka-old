@@ -39,8 +39,6 @@ class Router
     public static function dispatch($url)
     {
         $url = self::removeQueryString($url);
-        echo 'debug2: ';
-        debug($url);
         if (self::matchRoute($url)) {
             $controller = 'app\controllers\\' . self::$route['admin_prefix'] . self::$route['controller'] . 'Controller';
             if (class_exists($controller)) {
