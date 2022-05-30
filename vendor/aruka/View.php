@@ -4,7 +4,7 @@ namespace aruka;
 
 class View {
     
-    public strong $content = '';
+    public string $content = '';
 
     public function __construct(
         public $route,
