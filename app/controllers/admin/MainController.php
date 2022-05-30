@@ -2,7 +2,7 @@
 
 namespace app\controllers\admin;
 
-class MainController extends Controller;
+class MainController extends Controller
 {
     public function indexAction()
     {
