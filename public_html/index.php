@@ -21,4 +21,4 @@ new \aruka\App();
 
 //echo 'Hello, aruka!';
 
-//debug(\aruka\Router::getRoutes());
+debug(\aruka\Router::getRoutes());
