@@ -28,7 +28,7 @@ class Router
         if ($url) {
             $params = explode('&', $url, 2);
             debug($params);
-            if (false === str_containts($params[0], '=')) {
+            if (false === str_contains($params[0], '=')) {
 
             }
         }
