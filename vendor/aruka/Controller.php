@@ -5,7 +5,7 @@ namespace aruka;
 abstract class Controller
 {
     public array $data = [];
-    public array $meta = ['title' => '', 'description' => '', 'keywords' => ''];
+    public array $meta = [];
     public false|string $layout = '';
     public string $view = '';
     public object $model;
