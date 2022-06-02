@@ -15,7 +15,7 @@ use aruka\View;
 </head>
 <body>
 
-<?php debug($this) ?>
+<?= $this->content ?>
 
 </body>
 </html>
