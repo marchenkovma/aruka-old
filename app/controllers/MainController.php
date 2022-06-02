@@ -6,7 +6,7 @@ use aruka\Controller;
 
 class MainController extends Controller
 {
-    public false|string $layout = 'test2';
+    //public false|string $layout = 'test2';
 
     public function indexAction()
     {
