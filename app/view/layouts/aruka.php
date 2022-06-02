@@ -1,3 +1,10 @@
+<?php
+
+use aruka\View;
+
+/** $var $this View */
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +14,8 @@
     <title>Document</title>
 </head>
 <body>
- Content   
+
+<?php debug($this) ?>
+
 </body>
 </html>
