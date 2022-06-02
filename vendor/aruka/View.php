@@ -35,14 +35,14 @@ class View {
         } else {
             throw new \Exception("View {$view_file} not found", 500);
         }
-    }
 
-    if (false !== $this->layout) {
-        $layout_file = APP . "/view/layouts/{$this->layout}.php";
-        if (is_file($layout)) {
-            require_once $layout_file;
-        } else {
-            throw new \Exception("Layout {$layout_file} not found", 500);
+        if (false !== $this->layout) {
+            $layout_file = APP . "/view/layouts/{$this->layout}.php";
+            if (is_file($layout)) {
+                require_once $layout_file;
+            } else {
+                throw new \Exception("Layout {$layout_file} not found", 500);
+            }
         }
     }
 }
