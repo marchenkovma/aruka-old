@@ -7,6 +7,6 @@
     <title>Default</title>
 </head>
 <body>
-    <!= $this-content ?>
+    <!= $this->content ?>
 </body>
 </html>
