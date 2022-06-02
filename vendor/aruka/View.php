@@ -19,7 +19,7 @@ class View {
 
     }
 
-    // Create page = template + view +data
+    // Create page = template + view + data
     public function render($data)
     {
         if (is_array($data)) {
