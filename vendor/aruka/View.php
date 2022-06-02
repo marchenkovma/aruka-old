@@ -28,6 +28,10 @@ class View {
         // admin\ => admin/
         $prefix = str_replace('\\', '/', $this->route['admin_prefix']);
         $view_file = APP . "/view/{$prefix}{$this->route['controller']}/{$this->view}.php";
-        var_dump($view_file);
+        if(is_file($view_file)) {
+            require_once $view_file;
+        } else {
+            throw new \Exception("View {$view_file} not found", 500);
+        }
     }
 }
