@@ -9,16 +9,3 @@ require_once HELPERS . '/functions.php';
 require_once CONFIG . '/routes.php';
 
 new \aruka\App();
-
-// echo \aruka\App::$app->getProperty('pagination');
-// echo '<br>';
-// \aruka\App::$app->setProperty('test', 'TEST');
-// var_dump(\aruka\App::$app->getProperties());
-
-//throw new Exception('I have many error!', 500);
-
-//throw new Exception('I have many error!', 404);
-
-//echo 'Hello, aruka!';
-
-//debug(\aruka\Router::getRoutes());
