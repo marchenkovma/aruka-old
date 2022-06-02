@@ -7,3 +7,8 @@ function debug($date, $die = false)
         die;
     }
 }
+
+function h($str)
+{
+    return htmlspecialchars($str);
+}
