@@ -38,7 +38,7 @@ class View {
 
         if (false !== $this->layout) {
             $layout_file = APP . "/view/layouts/{$this->layout}.php";
-            if (is_file($layout)) {
+            if (is_file($layout_file)) {
                 require_once $layout_file;
             } else {
                 throw new \Exception("Layout {$layout_file} not found", 500);
