@@ -29,7 +29,9 @@ class View {
         $prefix = str_replace('\\', '/', $this->route['admin_prefix']);
         $view_file = APP . "/view/{$prefix}{$this->route['controller']}/{$this->view}.php";
         if(is_file($view_file)) {
+            ob_start();
             require_once $view_file;
+            $this->content = ob_get_clean();
         } else {
             throw new \Exception("View {$view_file} not found", 500);
         }
