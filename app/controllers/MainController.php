@@ -11,6 +11,6 @@ class MainController extends Controller
     {
         $names = ['Jonh', 'David', 'Maksim'];
         $this->setMeta('Main page', 'Description', 'Keywords' );
-        $this->set(['names' => $names]);
+        $this->set(compact('names'));
     }
 }
