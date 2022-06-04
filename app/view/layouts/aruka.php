@@ -1,6 +1,6 @@
 <?php
 
-use aruka\View;
+//use aruka\View;
 
 /** $var $this View */
 ?>
