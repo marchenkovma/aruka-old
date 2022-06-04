@@ -1,10 +1,3 @@
-<?php
-
-//use aruka\View;
-
-/** $var $this View */
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
