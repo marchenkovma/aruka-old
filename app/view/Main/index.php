@@ -1,3 +1,3 @@
 <h1>Hello, Main/index</h1>
 
-<?= debug($names); ?>
+<?php debug($names); ?>
