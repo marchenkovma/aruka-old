@@ -3,7 +3,7 @@
 namespace app\controllers;
 
 use aruka\Controller;
-use ReadBeanPHP\R;
+use RedBeanPHP\R;
 
 class MainController extends Controller
 {
