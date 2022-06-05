@@ -1,3 +1,3 @@
-<? $this->getPartLayout('header');
+<?php $this->getPartLayout('header');
 <?= $this->content ?>
-<? $this->getPartLayout('footer');
+<?php $this->getPartLayout('footer');
