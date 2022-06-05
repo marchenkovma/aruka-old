@@ -3,6 +3,7 @@
 namespace app\models;
 
 use aruka\Model;
+use RebBeanPHP\R;
 
 class Main extends Model
 {
