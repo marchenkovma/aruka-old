@@ -13,6 +13,6 @@ class MainController extends Controller
         $name = R::findAll('name');
         //debug($name);
         $this->setMeta('Main page', 'Description', 'Keywords' );
-        $this->set(compact('names'));
+        $this->set(compact('name'));
     }
 }
