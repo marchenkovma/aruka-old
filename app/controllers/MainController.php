@@ -3,7 +3,6 @@
 namespace app\controllers;
 
 use aruka\Controller;
-use RedBeanPHP\R;
 
 /** @property Main $model */
 class MainController extends Controller
