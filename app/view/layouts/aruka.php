@@ -10,5 +10,7 @@
 
 <?= $this->content ?>
 
+<?php $this->getDbLogs(); ?>
+
 </body>
 </html>
