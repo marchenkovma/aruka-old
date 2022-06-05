@@ -58,8 +58,10 @@ class View {
 
     public function getDbLogs()
     {
-        if (DEBUGN) {
-            $logs = R::
+        if (DEBUG) {
+            $logs = R::getDatabaseAdapter()->getDatabase()->getLogger();
+            $logs = array_merge($logs->grep('SELECT'), $logs->grep('INSERT'), $logs->grep('UPDATE'), $logs->grep('DELETE'));
+            debug($logs);
         }
     }
 }
