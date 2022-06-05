@@ -2,6 +2,8 @@
 
 namespace aruka;
 
+use RedBeanPHP\R;
+
 class Db {
 
     use TSingleton;
