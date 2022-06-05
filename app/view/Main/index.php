@@ -4,4 +4,4 @@
     <?php foreach ($name as $name): ?>
         <?= $name->id ?> => <?= $name->name ?><br>
     <?php endforeach; ?>
-<?php endifl ?>
+<?php endif; ?>
