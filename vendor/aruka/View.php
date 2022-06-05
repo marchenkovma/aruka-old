@@ -29,7 +29,7 @@ class View {
         }
         // admin\ => admin/
         $prefix = str_replace('\\', '/', $this->route['admin_prefix']);
-        $view_file = APP . "/view/{$prefix}{$this->route['controller']}/{$this->view}.php";
+        $view_file = APP . "/views/{$prefix}{$this->route['controller']}/{$this->view}.php";
         if(is_file($view_file)) {
             ob_start();
             require_once $view_file;
@@ -39,7 +39,7 @@ class View {
         }
 
         if (false !== $this->layout) {
-            $layout_file = APP . "/view/layouts/{$this->layout}.php";
+            $layout_file = APP . "/views/layouts/{$this->layout}.php";
             if (is_file($layout_file)) {
                 require_once $layout_file;
             } else {
