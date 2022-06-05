@@ -12,7 +12,7 @@ class Db {
     {
         $db = require_once CONFIG . '/config_db.php';
         R::setup($db['dsn'], $db['user'], $db['password']);
-        if (R::testConnection()) {
+        if (!R::testConnection()) {
             throw new \Exception('No connection for db', 500);
         }
         R::freeze(true);
