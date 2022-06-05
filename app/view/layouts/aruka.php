@@ -1,4 +1,4 @@
-<?php require_once APP . '/views/layouts/header.php'; ?>
+<?php require_once APP . '/views/layouts/parts/header.php'; ?>
 
 <?= $this->content ?>
 
