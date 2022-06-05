@@ -12,7 +12,7 @@ class MainController extends Controller
     public function indexAction()
     {
         $name = $this->model->getName();
-        $one_name = R::getRow('SELECT * FROM name WHERE id = 2')
+        $one_name = R::getRow('SELECT * FROM name WHERE id = 2');
         $this->setMeta('Main page', 'Description', 'Keywords' );
         $this->set(compact('name'));
     }
