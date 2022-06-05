@@ -6,7 +6,7 @@ use aruka\Model;
 
 class Main extends Model
 {
-    public function getNames(): array
+    public function getName(): array
     {
         return R::findAll('name');
     }
