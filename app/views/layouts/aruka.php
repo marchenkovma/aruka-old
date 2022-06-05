@@ -1,3 +1,3 @@
-<?php require_once APP . '/views/layouts/parts/header.php'; ?>
+<? $this->getPartLayout('header');
 <?= $this->content ?>
-<?php require_once APP . '/views/layouts/parts/footer.php'; ?>
+<? $this->getPartLayout('footer');
